@@ -130,7 +130,7 @@ namespace API.Services
                                     .GetByUsernameAsync(userDto.Username);
             if (userExists == null || !BCrypt.Net.BCrypt.Verify(userDto.Password, userExists.Password))
             {
-                return "Check your password and username, and try again.";
+                return "Check your password and username.";
             }
             var refreshToken = GenerateRefreshToken();
             string token = await CreateTokenAsync(userExists);
