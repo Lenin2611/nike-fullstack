@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.image {
+    width: 13vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+}
+
+.clothes {
+    border-radius: 1.1vw;
+    background-color: black;
+    color: #fff;
+    margin: 1vw 1vw 1vw 0vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14vw;
+}
+
+.details {
+    padding: 1vw;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.spam {
+    display: none;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    margin: 1vw;
+    color: #fff;
+    padding: 0.5vw;
+    border-radius: 2vw;
+}
+
+.quantity {
+    margin-inline: 1vw;
+}
+
+.title {
+    margin-top: 1vw;
+    margin-left: 14vw;
+}
+
+.aside {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    padding: 3vw 3vw 0vw 2vw;
+    position: fixed;
+    border-radius: 0vw 1vw 1vw 0vw;
+    font-size: 1.2vw;
+}
+
+.option {
+    margin-block: 1vw;
+    cursor: pointer;
+    border-bottom: solid 1px #000;
+}
+
+.car {
+    margin-block: 3vw;
+}
+
+.logout {
+    margin-top: 20vw;
+    cursor: pointer;
+    border-bottom: solid 1px #000;
+}
+
+.option:hover, .logout:hover {
+    border-bottom: solid 1px #fff;
+}
+
+.add-product, .delete-product {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: none;
+    border: none;
+    padding-inline: 0.4vw;
+    border-radius: 1vw;
+}
+
+.add-product:hover, .delete-product:hover {
+    background-color: #b7b7b7;
+}
+
+.nike {
+    width: 7vw;
+    margin-bottom: 1vw;
+}

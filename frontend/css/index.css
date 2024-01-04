@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+}
+
+.login, .register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 5vw;
+}
+
+.img-login, .img-register {
+    width: 40vw;
+}
+
+.form-login, .form-register {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 4vw 8vw 5vw;
+    border-radius: 1vw;
+}
+
+.text-login, .text-register {
+    margin-block: 0.6vw;
+    border-radius: 0.2vw;
+    border: none;
+    padding: 0.2vw;
+}
+
+.p-login, .p-register {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.pass-text {
+    margin-bottom: 3vw;
+    font-size: 1.2vw;
+}
+
+.pass-register, .pass-login {
+    margin-top: 0.5vw;
+    padding: 1vw;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3vw;
+    width: 6vw;
+    position: relative;
+    left: 34vw;
+    text-align: center;
+    border: solid 0.1px #fff;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 0.8vw;
+}
+
+.text {
+    text-align: end;
+}
+
+.pass-register:hover, .pass-login:hover {
+    color: #000;
+    background-color: #fff;
+    border: solid 0.1px #000;
+}
+
+.left-login, .left-register {
+    display: flex;
+    flex-direction: column;
+}
+
+.register {
+    display: none;
+}
+
+.warning-register, .warning-login {
+    display: none;
+    color: #ff0000;
+    text-align: center;
+    font-size: 0.6vw;
+}
+
+.popup-register {
+    background-color: #00000043;
+    position: absolute;
+    padding: 100%;
+    display: none;
+}
+
+.popup-text-register {
+    background-color: #fff;
+    border-radius: 1vw;
+    padding:10vw 4vw;
+    width: 30vw;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+body {
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+.submit {
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.5vw;
+    padding: 0.2vw;
+}
+
+.submit:hover {
+    background-color: #b4b4b4;
+}
