@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/nike.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Nike</title>
+</head>
+
+<body>
+    <div class="login" id="login">
+        <div class="left-login">
+            <div class="pass-text">
+                <p class="text">Are you not registered?</p>
+                <button class="pass-register" id="pass-register" type="button">Register</button>
+            </div>
+            <img class="img-login" src="img/login.svg" alt="Image Log In">
+        </div>
+        <form class="form-login">
+            <p class="p-login">Log In</p>
+            <p class="warning-login" id="warning-login">Check your password and username.</p>
+            <input class="text-login user-login" id="user-login" type="text" placeholder=" User">
+            <input class="text-login password-login" id="password-login" type="password" placeholder=" Password">
+            <input class="submit" id="submit-login" type="button" value="Log In">
+        </form>
+    </div>
+    <div class="register" id="register">
+        <div class="left-register">
+            <div class="pass-text">
+                <p class="text">Are you already registered?</p>
+                <button class="pass-login" id="pass-login" type="button">Log In</button>
+            </div>
+            <img class="img-register" src="img/register.svg" alt="Image Log In">
+        </div>
+        <form class="form-register">
+            <p class="p-register">Register</p>
+            <p class="warning-register" id="warning-register">User is not valid, try again with other one.</p>
+            <input class="text-register user-register" id="user-register" type="text" placeholder=" User">
+            <input class="text-register email-register" id="email-register" type="text" placeholder=" Email">
+            <input class="text-register password-register" id="password-register" type="password" placeholder=" Password">
+            <input class="submit" id="submit-register" type="button" value="Register">
+        </form>
+        <div class="popup-register" id="popup-register">
+            <p class="popup-text-register" id="popup-text-register"><span id="user-registered"></span> was registered successfully.<br>Press anywhere to go back...</p>
+        </div>
+    </div>
+    </div>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
